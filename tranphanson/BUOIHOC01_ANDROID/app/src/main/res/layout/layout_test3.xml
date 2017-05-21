@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+    <Button
+        android:layout_width="160dp"
+        android:text="Button01"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="220dp"
+        android:layout_height="90dp"
+        />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Button02"
+        android:paddingBottom ="20dp"
+        android:paddingRight="70dp"
+        android:layout_marginLeft="100dp"/>
+    <Button
+        android:layout_width="170dp"
+        android:text="Button03"
+        android:paddingBottom ="20dp"
+        android:paddingRight="80dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Button04"
+        android:paddingTop="20dp"
+        android:layout_marginLeft="280dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="250dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginLeft="70dp"
+        android:layout_height="50dp">
+        <Button
+            android:layout_width="50dp"
+            android:text="5"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Button06"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Button07"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Button08"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Button09"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

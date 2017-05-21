@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/Car"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toyota Corolla Altis 1.8At 2016 ,đủ màu , giá tốt và ưu đãi hấp dẫn nhất Miền Bắc .Liên hệ đặt xe ngay"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="3 tỉ 579 triệu"
+            android:textColor="#66BB6A"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/draw_test2"
+            android:text="Chi Phí Lăn Bánh"
+            android:textColor="#18FFFF" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:text="Mã Tin: "
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:text="Điểm tin: "
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:text="Tình Trạng Xe: "
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:text="Xuất xứ: "
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:text="Kiểu dáng: "
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:text="Năm sản xuất: "
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:text="Ngày đăng: "
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
